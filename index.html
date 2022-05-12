@@ -75,7 +75,18 @@
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button class="main-button" type="button btn">Заказать услугу</button>
+          <button class=" main-button" type="button btn" data-modal-open>Заказать услугу</button>
+       <div class=" backdrop is-hidden" data-modal>
+            <div class="modal">
+             <button class=" close-btn" data-modal-close>
+               <svg class="close">
+                 <use href="./images/icons.svg/Vector-7-1.svg">
+                 </use>
+                </svg>
+                </use>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -388,6 +399,7 @@
                   </li>
                 </ul>
         </div>
+        
       </section>
     </main>
     <!-- Секция наши клиенты -->
@@ -470,5 +482,6 @@
         </div>
       </div>
     </footer>
+    <script src="./JS/modal.js"></script>
   </body>
 </html>
