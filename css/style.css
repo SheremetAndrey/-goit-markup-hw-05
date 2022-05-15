@@ -762,6 +762,7 @@ p {
   height: 44px;
   width: 44px;
   align-items: center;
+  transition: background var(--transition-timing) var(--transition-function);
 }
 /*----ПОРТФОЛИО----*/
 /*секция хедер*/
