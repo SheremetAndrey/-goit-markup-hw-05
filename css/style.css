@@ -344,11 +344,9 @@ p {
   border-radius: 4px;
 }
 .close {
-  position: centre;
   width: 11px;
   height: 11px;
   fill: #000000;
-  transition: color var(--transition-timing) var(--transition-function);
 }
 .close-btn {
   position: absolute;
@@ -365,6 +363,7 @@ p {
 .close:hover,
 .close:focus {
   fill: #2196f3;
+  transition: fill var(--transition-timing) var(--transition-function);
 }
 /* Внимание к деталям */
 .hero-title {
