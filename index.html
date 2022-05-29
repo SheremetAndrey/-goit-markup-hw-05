@@ -108,8 +108,10 @@
                   <textarea class="input-box-coment" name="coment" id="coment" placeholder="Введите текст" rows="10"></textarea>
               </div>
               <div class="modal-js">
-                <input type="checkbox" name="policy" id="policy">
-                <label for="policy">
+                <label class="form-policy-group">
+                <input  class="checkbox visualitty-hidden" type="checkbox" >
+                 <span class="custom-checkbox">
+                   <svg class="custom-checkbox-icon"><use href="./images/icons.svg/modal.svg#checkmark"></svg> </span>
                   <span class="text-modal">Соглашаюсь с рассылкой и принимаю</span> <a class="modal-link" href> Условия договора </a></span>
                 </label>
               </div>
@@ -509,6 +511,12 @@
           <li class="sety-social"><a class="social-all" href=""aria-label="IN">
             <svg class="svg-icon-come"><use href="./images/icons.svg/symbol-defs.svg#linkedin-logo"></svg></a></li>
         </ul>
+        </div>
+        <div class="form-masenger">
+          <label class="masenger" for="">Подпишитесь на рассылку
+            <input class="input-masenger" type="text">
+          </label>
+          <button class="masenger-send">Подписаться <svg class="send-icon"><use href="./images/icons.svg/modal.svg#icon-send-1"></use></svg></button>
         </div>
       </div>
     </footer>
