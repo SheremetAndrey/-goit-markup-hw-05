@@ -424,6 +424,7 @@ textarea {
   padding-bottom: 12px;
   padding-left: 16px;
   padding-right: 16px;
+  transition: border-color var(--transition-timing) var(--transition-function);
 }
 .input-box:hover,
 .input-box:focus {
@@ -437,12 +438,13 @@ textarea {
   outline-color: #2196f3;
   border: none;
 }
+.input-box-coment:hover {
+  border-color: #2196f3;
+}
 .modal-js:focus-within .modal-icon {
   color: #2196f3;
 }
-.input-box-coment:focus {
-  border-color: #2196f3;
-}
+
 /* CHECKBOX */
 .form-policy-group {
   display: flex;
