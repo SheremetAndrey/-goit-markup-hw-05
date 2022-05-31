@@ -430,7 +430,9 @@ textarea {
   border-color: #2196f3;
 }
 .modal-js:hover,
-.modal-js:focus {
+.modal-js:focus,
+.input-box-coment:focus,
+.input-box:focus {
   color: #2196f3;
   outline-color: #2196f3;
   border: none;
@@ -438,27 +440,44 @@ textarea {
 .modal-js:focus-within .modal-icon {
   color: #2196f3;
 }
-
+.input-box-coment:focus {
+  border-color: #2196f3;
+}
+/* CHECKBOX */
 .form-policy-group {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.form-policy-group:focus {
+  border-color: #2196f3;
+}
 .custom-checkbox-icon {
   width: 11px;
   height: 8px;
   opacity: 0;
+  fill: #eeeeee;
   transition: opacity 300ms ease-in;
 }
 .checkbox:checked + .custom-checkbox .custom-checkbox-icon {
   opacity: 1;
+  border-color: #2196f3;
 }
 .checkbox:checked + .custom-checkbox {
   background-color: #2196f3;
-  background-origin: border-box;
 }
-.custom-checkbox-icon:focus {
-  fill: #f5f4fa;
+.checkbox:hover + .custom-checkbox-icon {
+  border-color: #2196f3;
+}
+.checkbox:focus + .custom-checkbox-icon {
+  border-color: #2196f3;
+}
+.checkbox:checked + .custom-checkbox-icon {
+  border-color: #2196f3;
+  background-size: contain;
+  background-origin: border-box;
+  background-color: #2196f3;
+  border-color: #2196f3;
 }
 .custom-checkbox {
   width: 16px;
@@ -938,6 +957,7 @@ textarea {
   width: 358px;
   height: 50px;
   margin-top: 20px;
+  color: white;
 }
 .masenger-send {
   display: flex;
